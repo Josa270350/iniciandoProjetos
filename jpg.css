@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#e5d6d6;
+    border-radius:20px;
+}
+
+header{
+    background:rgb(93, 60, 164);
+    color:white;
+    text-align:center;
+    padding:40px;
+    border-radius:20px;
+}
+
+section{
+    background:rgb(74, 212, 157);
+    max-width:800px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:20px;
+}
+.hero h1{
+    margin:10px 0;
+}
+
+.hero p{
+    font-size:20px;
+    color:#555;
+}
+
+.hero a{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+.nav p{
+    font-size:25px;
+    color:#541171;
+    text-align:center;
+}
+
+.piscar {
+    animation: efeito 1s infinite;
+}
+
+@keyframes efeito {
+    0% {
+        opacity: 1;
+        color: yellow;
+    }
+
+    50% {
+        opacity: 0;
+        color: rgb(132, 0, 255);
+    }
+
+    100% {
+        opacity: 1;
+        color: rgb(157, 13, 13)
+    }
+}
